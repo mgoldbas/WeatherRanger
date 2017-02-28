@@ -1,0 +1,8 @@
+,clouds,deg,dt,humidity,pressure,rain,snow,speed,temp,weather
+0,80,253,1488214800,47,1005.6,,,3.3,"{'min': 273.14, 'max': 278.8, 'eve': 277.05, 'day': 278.8, 'morn': 278.8, 'night': 273.14}","[{'id': 803, 'icon': '04d', 'description': 'broken clouds', 'main': 'Clouds'}]"
+1,8,163,1488301200,49,1002.57,4.27,,2.68,"{'min': 274.22, 'max': 285.96, 'eve': 283.59, 'day': 285.62, 'morn': 274.22, 'night': 283.46}","[{'id': 501, 'icon': '10d', 'description': 'moderate rain', 'main': 'Rain'}]"
+2,92,284,1488387600,100,979.27,27.58,,3.02,"{'min': 280.51, 'max': 286.45, 'eve': 284.05, 'day': 285.49, 'morn': 285.68, 'night': 280.51}","[{'id': 502, 'icon': '10d', 'description': 'heavy intensity rain', 'main': 'Rain'}]"
+3,93,275,1488474000,0,968.32,0.95,3.41,5.01,"{'min': 267.01, 'max': 273.59, 'eve': 269.31, 'day': 272.44, 'morn': 273.59, 'night': 267.01}","[{'id': 601, 'icon': '13d', 'description': 'snow', 'main': 'Snow'}]"
+4,45,293,1488560400,0,986.24,,1.62,3.1,"{'min': 265.16, 'max': 270.65, 'eve': 270.19, 'day': 270.65, 'morn': 265.16, 'night': 266.86}","[{'id': 601, 'icon': '13d', 'description': 'snow', 'main': 'Snow'}]"
+5,74,246,1488646800,0,988.1,,0.04,3.61,"{'min': 265.76, 'max': 277.15, 'eve': 277.15, 'day': 275.47, 'morn': 265.76, 'night': 275.97}","[{'id': 600, 'icon': '13d', 'description': 'light snow', 'main': 'Snow'}]"
+6,71,221,1488733200,0,984.33,1.59,,2.24,"{'min': 275.55, 'max': 283.14, 'eve': 279.84, 'day': 283.14, 'morn': 275.55, 'night': 277.32}","[{'id': 500, 'icon': '10d', 'description': 'light rain', 'main': 'Rain'}]"

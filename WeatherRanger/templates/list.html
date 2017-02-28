@@ -1,0 +1,46 @@
+{% extends 'index.html' %}
+{% block body %}
+    <h3> Temperature Ranges</h3>
+        <form method="POST">
+        <table class="table">
+            {% csrf_token %}
+
+            {{ form.as_table }}
+        </table>
+        <input class="btn btn-primary" type="submit" value="Submit">
+    </form>
+    <br>
+    <table class="table table-bordered">
+    <tr>
+        <th>City</th>
+        <th>Current Temperature</th>
+        <th>Min Temp</th>
+        <th>Max Temp</th>
+        <th>Five Day Range</th>
+        <th>Sixteen Day Range</th>
+    </tr>
+    {% for range in temperature_range %}
+        <tr>
+            <td> {{ range.city }}</td>
+            <td> {{ range.current_temperature }}</td>
+            <td> {{ range.min_temperature }} </td>
+            <td> {{ range.max_temperature }}</td>
+            <td>
+                {% if "{{ range.is_in_five_day_range }}" == "True   "%}
+                <div class="alert-success">Go Quick</div>
+                {% else %}
+                <div class="alert-info">Wait a little </div>
+                {% endif %}
+            </td>
+            <td>
+                {% if "{{ range.is_in_sixteen_day_range }}" == "True"%}
+                <div class="alert-success">Start Planning</div>
+                {% else %}
+                <div class="alert-info">Wait a little  </div>
+                {% endif %}
+            </td>
+
+        </tr>
+    {% endfor %}
+    </table>
+{% endblock %}
